@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style/style.css"/>
+
+<script type="text/javascript" src="js/lib/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="js/logic.js"></script>
+
+</head>
+
+
+<body id="crypter">
+<div class="drop-wrapper">
+	<div id="what" class="drop-zone">Drop image to hide<br>
+	
+	</div>
+</div>
+
+<div class="drop-wrapper invisible">
+	<div id="where" class="drop-zone">Drop image <b>WHERE</b> to hide
+	</div>
+</div>
+
+
+<div class="range-wrap invisible">
+	<div class="caption">How many bits per color component to store <br> <div style="font-size: 12px">(affects container changes also)</div></div>
+	<input id="bits-range" type="range" min="1" max="4" step="1" value="2"/>
+	<div class="range-display"></div>
+	
+	<canvas id="preview"></canvas>
+	
+	<div class="controls">
+		<div id="crypt" class="button blue" style="margin:20px auto; width: 120px;">CRYPT</div>
+	</div>
+</div>
+
+<div class="res invisible" style="text-align: center">
+	<span class="caption">Here You Go</span>
+	<img id="result" src="">
+	<div id="repeat" class="button blue" style="margin:20px auto; width: 120px;">One more time</div>
+</div>
+
+<canvas id="handler" class="invisible"></canvas>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+﻿html{
+	font-family: Arial, Helvetica;
+}
+
+.invisible{
+	display: none;
+}
+
+.drop-wrapper{
+	padding: 10px;
+	margin: 0 auto;
+	width: 400px;
+	height: 225px;
+}
+
+.drop-zone{
+	border: 2px dashed #aeaeae;
+	border-radius: 5px;
+	text-align: center;
+	padding: 101px 25px;
+	color: #acacac;
+}
+
+.result-wrapper{
+	margin: 0 auto;
+}
+
+#crypter .result-wrapper{
+	width: 1284px;
+}
+
+#crypter span{
+	margin-top: 50px;
+	font-size: 25px;
+	color: #93C6DF;
+}
+
+#decrypter .result-wrapper{
+	width: 640px;
+}
+
+img{
+	margin-bottom: 20px;
+}
+
+#result, #given{
+	display: block; margin: 0 auto;
+}
+
+.input{
+	width: 616px;
+	height: 35px;
+	margin: 0;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+.button{
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+.button.blue{
+	background: #00AFF0;
+	color: white;
+}
+
+.button.blue:active{
+	background: #00BAFF;
+}
+
+.display{
+	width: 640px;
+	height: 360px;
+}
+
+.empty-spot{
+	height: 300px;
+}
+
+.range-wrap{
+	text-align: center;
+	border-top: 1px solid #D8D8D8;
+	margin-top: 20px;
+	padding-top: 30px;
+}
+
+.range-wrap .caption{
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #999999;
+}
+
+#bits-range{
+	vertical-align: middle;
+	outline: none;
+}
+
+.range-display{
+	display: inline-block;
+	border: 1px solid #aeaeae;
+	height: 30px;
+	line-height: 30px;
+	width: 50px;
+}
+
+#preview{
+	display: block;
+	margin: 20px auto;
+}

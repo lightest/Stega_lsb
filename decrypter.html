@@ -1,0 +1,38 @@
+﻿<!doctype html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style/style.css"/>
+
+<script type="text/javascript" src="js/lib/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="js/logic.js"></script>
+
+</head>
+
+
+<body id="decrypter">
+<div class="drop-wrapper">
+	<div id="where" class="drop-zone">Drop the crypted image here<br>
+	</div>
+</div>
+
+<div class="result-wrapper invisible">
+	<div style="margin: 10px 0">
+		<div id="decrypt" class="button blue" style="width: 620px;">DECrypt image</div>
+	</div>
+</div>
+
+<img id="given" alt="crypted">
+
+<div class="res invisible" style="text-align: center">
+	<span class="caption">Here You Go</span>
+	<img id="result" src="">
+	<div id="repeat" class="button blue" style="margin:20px auto; width: 120px;">One more time</div>
+</div>
+
+<canvas id="handler" class="invisible"></canvas>
+
+</body>
+
+</html>
